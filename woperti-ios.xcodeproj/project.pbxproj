@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39FEE22A2307629700D8BAFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FEE2292307629700D8BAFE /* AppDelegate.swift */; };
+		39FEE22C2307629700D8BAFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FEE22B2307629700D8BAFE /* ViewController.swift */; };
+		39FEE22F2307629700D8BAFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39FEE22D2307629700D8BAFE /* Main.storyboard */; };
+		39FEE2322307629800D8BAFE /* woperti_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39FEE2302307629700D8BAFE /* woperti_ios.xcdatamodeld */; };
+		39FEE2342307629C00D8BAFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39FEE2332307629C00D8BAFE /* Assets.xcassets */; };
+		39FEE2372307629C00D8BAFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39FEE2352307629C00D8BAFE /* LaunchScreen.storyboard */; };
+		39FEE2422307629C00D8BAFE /* woperti_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FEE2412307629C00D8BAFE /* woperti_iosTests.swift */; };
+		39FEE24D2307629C00D8BAFE /* woperti_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FEE24C2307629C00D8BAFE /* woperti_iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39FEE23E2307629C00D8BAFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39FEE21E2307629700D8BAFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39FEE2252307629700D8BAFE;
+			remoteInfo = "woperti-ios";
+		};
+		39FEE2492307629C00D8BAFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39FEE21E2307629700D8BAFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39FEE2252307629700D8BAFE;
+			remoteInfo = "woperti-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39FEE2262307629700D8BAFE /* woperti-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "woperti-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39FEE2292307629700D8BAFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39FEE22B2307629700D8BAFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39FEE22E2307629700D8BAFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39FEE2312307629700D8BAFE /* woperti_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = woperti_ios.xcdatamodel; sourceTree = "<group>"; };
+		39FEE2332307629C00D8BAFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39FEE2362307629C00D8BAFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39FEE2382307629C00D8BAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39FEE23D2307629C00D8BAFE /* woperti-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "woperti-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39FEE2412307629C00D8BAFE /* woperti_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = woperti_iosTests.swift; sourceTree = "<group>"; };
+		39FEE2432307629C00D8BAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39FEE2482307629C00D8BAFE /* woperti-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "woperti-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39FEE24C2307629C00D8BAFE /* woperti_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = woperti_iosUITests.swift; sourceTree = "<group>"; };
+		39FEE24E2307629C00D8BAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39FEE2232307629700D8BAFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39FEE23A2307629C00D8BAFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39FEE2452307629C00D8BAFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39FEE21D2307629700D8BAFE = {
+			isa = PBXGroup;
+			children = (
+				39FEE2282307629700D8BAFE /* woperti-ios */,
+				39FEE2402307629C00D8BAFE /* woperti-iosTests */,
+				39FEE24B2307629C00D8BAFE /* woperti-iosUITests */,
+				39FEE2272307629700D8BAFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39FEE2272307629700D8BAFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39FEE2262307629700D8BAFE /* woperti-ios.app */,
+				39FEE23D2307629C00D8BAFE /* woperti-iosTests.xctest */,
+				39FEE2482307629C00D8BAFE /* woperti-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39FEE2282307629700D8BAFE /* woperti-ios */ = {
+			isa = PBXGroup;
+			children = (
+				39FEE2292307629700D8BAFE /* AppDelegate.swift */,
+				39FEE22B2307629700D8BAFE /* ViewController.swift */,
+				39FEE22D2307629700D8BAFE /* Main.storyboard */,
+				39FEE2332307629C00D8BAFE /* Assets.xcassets */,
+				39FEE2352307629C00D8BAFE /* LaunchScreen.storyboard */,
+				39FEE2382307629C00D8BAFE /* Info.plist */,
+				39FEE2302307629700D8BAFE /* woperti_ios.xcdatamodeld */,
+			);
+			path = "woperti-ios";
+			sourceTree = "<group>";
+		};
+		39FEE2402307629C00D8BAFE /* woperti-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				39FEE2412307629C00D8BAFE /* woperti_iosTests.swift */,
+				39FEE2432307629C00D8BAFE /* Info.plist */,
+			);
+			path = "woperti-iosTests";
+			sourceTree = "<group>";
+		};
+		39FEE24B2307629C00D8BAFE /* woperti-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39FEE24C2307629C00D8BAFE /* woperti_iosUITests.swift */,
+				39FEE24E2307629C00D8BAFE /* Info.plist */,
+			);
+			path = "woperti-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39FEE2252307629700D8BAFE /* woperti-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39FEE2512307629C00D8BAFE /* Build configuration list for PBXNativeTarget "woperti-ios" */;
+			buildPhases = (
+				39FEE2222307629700D8BAFE /* Sources */,
+				39FEE2232307629700D8BAFE /* Frameworks */,
+				39FEE2242307629700D8BAFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "woperti-ios";
+			productName = "woperti-ios";
+			productReference = 39FEE2262307629700D8BAFE /* woperti-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39FEE23C2307629C00D8BAFE /* woperti-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39FEE2542307629C00D8BAFE /* Build configuration list for PBXNativeTarget "woperti-iosTests" */;
+			buildPhases = (
+				39FEE2392307629C00D8BAFE /* Sources */,
+				39FEE23A2307629C00D8BAFE /* Frameworks */,
+				39FEE23B2307629C00D8BAFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39FEE23F2307629C00D8BAFE /* PBXTargetDependency */,
+			);
+			name = "woperti-iosTests";
+			productName = "woperti-iosTests";
+			productReference = 39FEE23D2307629C00D8BAFE /* woperti-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39FEE2472307629C00D8BAFE /* woperti-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39FEE2572307629C00D8BAFE /* Build configuration list for PBXNativeTarget "woperti-iosUITests" */;
+			buildPhases = (
+				39FEE2442307629C00D8BAFE /* Sources */,
+				39FEE2452307629C00D8BAFE /* Frameworks */,
+				39FEE2462307629C00D8BAFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39FEE24A2307629C00D8BAFE /* PBXTargetDependency */,
+			);
+			name = "woperti-iosUITests";
+			productName = "woperti-iosUITests";
+			productReference = 39FEE2482307629C00D8BAFE /* woperti-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39FEE21E2307629700D8BAFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Cesar Juarez";
+				TargetAttributes = {
+					39FEE2252307629700D8BAFE = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					39FEE23C2307629C00D8BAFE = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 39FEE2252307629700D8BAFE;
+					};
+					39FEE2472307629C00D8BAFE = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 39FEE2252307629700D8BAFE;
+					};
+				};
+			};
+			buildConfigurationList = 39FEE2212307629700D8BAFE /* Build configuration list for PBXProject "woperti-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39FEE21D2307629700D8BAFE;
+			productRefGroup = 39FEE2272307629700D8BAFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39FEE2252307629700D8BAFE /* woperti-ios */,
+				39FEE23C2307629C00D8BAFE /* woperti-iosTests */,
+				39FEE2472307629C00D8BAFE /* woperti-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39FEE2242307629700D8BAFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39FEE2372307629C00D8BAFE /* LaunchScreen.storyboard in Resources */,
+				39FEE2342307629C00D8BAFE /* Assets.xcassets in Resources */,
+				39FEE22F2307629700D8BAFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39FEE23B2307629C00D8BAFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39FEE2462307629C00D8BAFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39FEE2222307629700D8BAFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39FEE22C2307629700D8BAFE /* ViewController.swift in Sources */,
+				39FEE22A2307629700D8BAFE /* AppDelegate.swift in Sources */,
+				39FEE2322307629800D8BAFE /* woperti_ios.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39FEE2392307629C00D8BAFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39FEE2422307629C00D8BAFE /* woperti_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39FEE2442307629C00D8BAFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39FEE24D2307629C00D8BAFE /* woperti_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39FEE23F2307629C00D8BAFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39FEE2252307629700D8BAFE /* woperti-ios */;
+			targetProxy = 39FEE23E2307629C00D8BAFE /* PBXContainerItemProxy */;
+		};
+		39FEE24A2307629C00D8BAFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39FEE2252307629700D8BAFE /* woperti-ios */;
+			targetProxy = 39FEE2492307629C00D8BAFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39FEE22D2307629700D8BAFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39FEE22E2307629700D8BAFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39FEE2352307629C00D8BAFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39FEE2362307629C00D8BAFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39FEE24F2307629C00D8BAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39FEE2502307629C00D8BAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39FEE2522307629C00D8BAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UJ5P94JLP2;
+				INFOPLIST_FILE = "woperti-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "as.woperti-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39FEE2532307629C00D8BAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UJ5P94JLP2;
+				INFOPLIST_FILE = "woperti-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "as.woperti-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39FEE2552307629C00D8BAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "woperti-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "as.woperti-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/woperti-ios.app/woperti-ios";
+			};
+			name = Debug;
+		};
+		39FEE2562307629C00D8BAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "woperti-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "as.woperti-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/woperti-ios.app/woperti-ios";
+			};
+			name = Release;
+		};
+		39FEE2582307629C00D8BAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "woperti-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "as.woperti-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "woperti-ios";
+			};
+			name = Debug;
+		};
+		39FEE2592307629C00D8BAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "woperti-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "as.woperti-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "woperti-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39FEE2212307629700D8BAFE /* Build configuration list for PBXProject "woperti-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39FEE24F2307629C00D8BAFE /* Debug */,
+				39FEE2502307629C00D8BAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39FEE2512307629C00D8BAFE /* Build configuration list for PBXNativeTarget "woperti-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39FEE2522307629C00D8BAFE /* Debug */,
+				39FEE2532307629C00D8BAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39FEE2542307629C00D8BAFE /* Build configuration list for PBXNativeTarget "woperti-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39FEE2552307629C00D8BAFE /* Debug */,
+				39FEE2562307629C00D8BAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39FEE2572307629C00D8BAFE /* Build configuration list for PBXNativeTarget "woperti-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39FEE2582307629C00D8BAFE /* Debug */,
+				39FEE2592307629C00D8BAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		39FEE2302307629700D8BAFE /* woperti_ios.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				39FEE2312307629700D8BAFE /* woperti_ios.xcdatamodel */,
+			);
+			currentVersion = 39FEE2312307629700D8BAFE /* woperti_ios.xcdatamodel */;
+			path = woperti_ios.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 39FEE21E2307629700D8BAFE /* Project object */;
+}
